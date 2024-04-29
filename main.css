@@ -1,0 +1,214 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 45px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    display: flex;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+a {
+    color: inherit;
+}
+
+.menu-buttons {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: max-content;
+    border: 5px black;
+    border-style: none none solid none;
+}
+
+#menu-home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: 60px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 5px;
+}
+
+#menu-eraserhead {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f5f5f;
+    color: white;
+    width: max-content;
+    height: 60px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 5px;
+}
+
+#menu-bluevelvet {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #081752;
+    color: white;
+    width: max-content;
+    height: 60px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 5px;}
+
+#menu-losthighway {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #887A4D;
+    color: white;
+    width: max-content;
+    height: 60px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 5px;}
+
+#menu-form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #211008;
+    color: #627E4D;
+    width: max-content;
+    height: 60px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 790px;
+    -webkit-text-stroke: 0.1px white;
+}
+
+.main-title-lynch {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    border-top-width: 45px solid white;
+    border-bottom-width: 45px solid white;
+}
+
+
+.lynch-pic {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.main-title-eraserhead {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-left: 94px;
+}
+
+.wall-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.eraserhead-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.eraserhead-body {
+    background-color: black;
+    height: max-content;
+    padding-bottom: 50px;
+}
+
+.eraserhead-body > p {
+    color: white;
+    display: flex;
+    padding: 0px 100px 0px 88px;
+    text-align: justify;
+}
+
+.main-title-bluevelvet {
+    display: flex;
+    background-color: #081752;
+    color: white;
+    padding-left: 94px;
+}
+
+.singer-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.rose-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.bluevelvet-body {
+    background-color: #081752;
+    height: max-content;
+    padding-bottom: 50px;
+}
+
+.bluevelvet-body > p {
+    color: white;
+    display: flex;
+    padding: 0px 100px 0px 88px;
+    text-align: justify;
+}
+
+
+.main-title-losthighway {
+    display: flex;
+    background-color: #887A4D;
+    color: white;
+    padding-left: 94px;
+}
+
+.eyes-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.three-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.losthighway-body {
+    background-color: #887A4D;
+    height: max-content;
+    padding-bottom: 50px;
+}
+
+.losthighway-body > p {
+    color: white;
+    display: flex;
+    padding: 0px 100px 0px 88px;
+    text-align: justify;
+}
